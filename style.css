@@ -1,0 +1,85 @@
+body {
+    box-sizing: content-box;
+    margin-top: 130px;
+    margin-left: 480px;
+    background-color: rgb(138, 133, 133);
+    font-family: sans-serif;
+}
+
+.container {
+    width: 300px;
+    height: 330px;
+    padding: 0;
+    border: 3px solid whitesmoke;
+    margin: 0;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #c1c1c1,
+        -5px -5px 10px #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.inputs {
+    margin: 20px;
+}
+
+.check button {
+    width: 250px;
+    height: 35px;
+    margin-top: 15px;
+    background-color: rgb(241, 169, 105);
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+}
+
+.outputs h4 {
+    margin-top: 15px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(107, 235, 107);
+    box-shadow: 5px 5px 10px #c1c1c1,
+        -5px -5px 10px #ffffff;
+}
+
+.bmi-status {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bmi-status div {
+    margin: 0;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.underweight {
+    background-color: #ffc0cb;
+}
+
+.normal {
+    background-color: #90ee90;
+}
+
+.overweight {
+    background-color: #ffa07a;
+}
+
+.obese {
+    background-color: #ff0000;
+}
+
+.underweight,
+.normal,
+.overweight,
+.obese {
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 20px;
+}
